@@ -1,0 +1,20 @@
+k = int(input('Обхват по бьюсту:'))
+if (k >= 80):
+	print('5 баллов')
+elif (k >= 80) and (k < 100):
+	print('5 баллов')
+
+elif (k < 80) and (k > 70):
+	print('4 балла')
+elif (k < 70) and (k > 60):
+	print('3 балла')
+elif (k < 60) and (k > 50):
+	print('2 балла')
+else :
+	print('2 балла')
+
+m = int(input('По бедрам:'))
+n = int(input('По талии:'))
+t = int(input('Рост:'))
+p = int(input('Вес:'))
+
